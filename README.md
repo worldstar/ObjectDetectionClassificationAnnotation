@@ -15,7 +15,7 @@
 ![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片 自動產生的描述](images/image3.png)
 
 <!-- Slide number: 4 -->
-# CASE１:第一次使用將需要的類別分次輸入，如下圖。並根據需求選擇One-hot vector或是True label完成後點選“Next”
+# CASE１:第一次使用將需要的類別分次輸入，如下圖。並根據需求選擇One-hot vector或是True label完成後點選“Next”
 *此處類別假設了踢足球的三種可能場景，公園、學校操場與足球場*
 
 ![一張含有 文字, 字型, 軟體, 螢幕擷取畫面 的圖片 AI 產生的內容可能不正確。](images/image4.png)
