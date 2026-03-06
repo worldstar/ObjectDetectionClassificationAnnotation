@@ -1,6 +1,26 @@
 # yolo-classification-gui-by-gyf-v0.18使用教學
+## 安裝說明
+### 系統需求
+作業系統
+Windows 10 / 11
+Python建議 ≥3.8
+
+需要另外安裝的第三方套件：
+
+PyQt5（提供 QApplication, QMainWindow, QWidget, QLabel, QPushButton, QFileDialog, QMessageBox 等）
+numpy
+安裝指令：
+```bash
+pip install PyQt5 numpy
+```
+
+執行方式：
+```bash
+python yolo-classification-gui-by-gyf-v0.18.py
+```
+
 ## 流程簡介
-看完後請點選“Next”進入下一步。
+閱畢後請點選“Next”進入下一步。
 <p align="center">
 <img src="images/image1.png" width="350">
 </p>
@@ -59,4 +79,12 @@
 > - **左右方向鍵 `←` `→`**：快速切換圖片。
 
 ## 成果
+以下用心房作為範例，若點選mile則會在對應的txt檔案的最後一行加上數字標記。
 
+<p align="center">
+<img src="images/image8.png" width="600">
+</p>
+
+<p align="center">
+<img src="images/image9.png" width="400">
+</p>
