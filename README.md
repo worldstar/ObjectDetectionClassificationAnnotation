@@ -1,47 +1,47 @@
-<!-- Slide number: 1 -->
 # yolo-classification-gui-by-gyf-v0.18使用教學
+流程簡介，點選“Next”進入下一步
+<p align="center">
+<img src="images/image1.png" width="600">
+</p>
 
-<!-- Slide number: 2 -->
-# 流程簡介，點選“Next”進入下一步
+### 📁 步驟 1: 載入資料集
+點選“Load Dataset”挑選資料集
+注意：資料集內部需含有資料夾 ”images” 及 ”labels” （labels可用labelTxt替代）
 
-![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片 自動產生的描述](images/image1.png)
+<p align="center">
+<img src="images/image2.png" width="600">
+</p>
 
-<!-- Slide number: 3 -->
-# 點選“Load Dataset”挑選資料集
-*注意：資料集內部需含有資料夾 ”images” 及 ”labels” （labels可用labelTxt替代）*
+<p align="center">
+<img src="images/image3.png" width="600">
+</p>
 
-![一張含有 文字, 螢幕擷取畫面, 軟體, 電腦圖示 的圖片 自動產生的描述](images/image2.png)
+### ⚙️ 步驟 2: 設定類別格式
+CASE１:第一次使用將需要的類別分次輸入，如下圖。並根據需求選擇One-hot vector或是True label完成後點選“Next”
+此處類別假設了踢足球的三種可能場景，公園、學校操場與足球場
 
-![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片 自動產生的描述](images/image3.png)
+<p align="center">
+<img src="images/image4.png" width="600">
+</p>
 
-<!-- Slide number: 4 -->
-# CASE１:第一次使用將需要的類別分次輸入，如下圖。並根據需求選擇One-hot vector或是True label完成後點選“Next”
-*此處類別假設了踢足球的三種可能場景，公園、學校操場與足球場*
-
-![一張含有 文字, 字型, 軟體, 螢幕擷取畫面 的圖片 AI 產生的內容可能不正確。](images/image4.png)
 Ex. 0 1 0 0 表示第二個類別
 Ex. 3 表示第四個類別(0-base)
 
-<!-- Slide number: 5 -->
-# CASE２:接續使用Labels內部有儲存之前的紀錄在 classes.txt ，可以點選Yes跳過輸入類別。
+CASE２:接續使用Labels內部有儲存之前的紀錄在 classes.txt ，可以點選Yes跳過輸入類別。
+<p align="center">
+<img src="images/image5.png" width="600">
+</p>
 
-![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片 自動產生的描述](images/image5.png)
+確認檔案正確後點選“Next”
+<p align="center">
+<img src="images/image6.png" width="600">
+</p>
 
-<!-- Slide number: 6 -->
-# 確認檔案正確後點選“Next”
+上述完成後即可開始使用
+<p align="center">
+<img src="images/image7.png" width="600">
+</p>
 
-![一張含有 文字, 螢幕擷取畫面, 字型, 陳列 的圖片 自動產生的描述](images/image6.png)
-
-<!-- Slide number: 7 -->
-# 上述完成後即可開始使用
-
-![一張含有 文字, 足球, 螢幕擷取畫面, 團隊運動 的圖片 自動產生的描述](images/image7.png)
-
-<!-- Slide number: 8 -->
-
-![](images/image8.jpg)
 完成後點選“Ｘ”離開
 第一步：選擇是否點選標記(可以透過數字鍵1~9點選)
 第二步：選擇前一張或後一張圖片繼續標記(可以透過方向鍵左右進行切換)
-
-### Notes:
