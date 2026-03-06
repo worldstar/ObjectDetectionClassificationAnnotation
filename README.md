@@ -2,18 +2,18 @@
 ## 流程簡介
 看完後請點選“Next”進入下一步。
 <p align="center">
-<img src="images/image1.png" width="600">
+<img src="images/image1.png" width="350">
 </p>
 
 ## 📁 步驟 1: 載入資料集
 點選“Load Dataset”挑選資料集。
 
 <p align="center">
-<img src="images/image2.png" width="600">
+<img src="images/image2.png" width="350">
 </p>
 
 <p align="center">
-<img src="images/image3.png" width="600">
+<img src="images/image3.png" width="500">
 </p>
 
 > [!IMPORTANT]
@@ -26,21 +26,24 @@
 此處類別假設了踢足球的三種可能場景，公園、學校操場與足球場。
 
 <p align="center">
-<img src="images/image4.png" width="600">
+  <img src="images/image4.png" width="600">
 </p>
 
-Ex. 0 1 0 0 表示第二個類別
-Ex. 3 表示第四個類別(0-base)
+> [!TIP]
+> ### 💡 標籤格式輸出對比
+> 根據您的模型需求，輸出結果將有以下差異：
+> - **One-hot vector**：若選擇此項，第二個類別將標記為 `0 1 0 0`。
+> - **True label (0-base)**：若選擇此項，第四個類別將標記為 `3`。
 
 ### CASE２:接續使用可以點選Yes跳過輸入類別。
 <p align="center">
-<img src="images/image5.png" width="600">
+<img src="images/image5.png" width="350">
 </p>
 
 ## ✅ 步驟 3: 路徑、類別確認
 確認檔案正確後點選“Next”。
 <p align="center">
-<img src="images/image6.png" width="600">
+<img src="images/image6.png" width="450">
 </p>
 
 ## ✍️ 步驟 4: 開始標記
@@ -54,3 +57,6 @@ Ex. 3 表示第四個類別(0-base)
 > 不需要每次都用滑鼠點擊！您可以透過鍵盤進行盲打操作：
 > - **數字鍵 `1-9`**：直接進行類別標記。
 > - **左右方向鍵 `←` `→`**：快速切換圖片。
+
+## 成果
+
