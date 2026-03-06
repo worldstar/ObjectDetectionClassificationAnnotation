@@ -1,4 +1,4 @@
-# yolo-classification-gui-by-gyf-v0.18使用教學
+# yolo-classification-gui-by-gyf-v1使用教學
 ## 安裝說明
 ### 系統需求
 作業系統
@@ -16,7 +16,7 @@ pip install PyQt5 numpy
 
 執行方式：
 ```bash
-python yolo-classification-gui-by-gyf-v0.18.py
+python yolo-classification-gui-by-gyf-v1.py
 ```
 
 ## 流程簡介
@@ -75,11 +75,11 @@ python yolo-classification-gui-by-gyf-v0.18.py
 > [!TIP]
 > **提升效率的小技巧：**
 > 不需要每次都用滑鼠點擊！您可以透過鍵盤進行盲打操作：
-> - **數字鍵 `1-9`**：直接進行類別標記。
+> - **數字鍵 `0-9`**：直接進行類別標記(上限為10種類別)。
 > - **左右方向鍵 `←` `→`**：快速切換圖片。
 
 ## 成果
-以下用心房作為範例，若點選mile則會在對應的txt檔案的最後一行加上數字標記。
+以下用 True Label 模式作為範例，若點選mile則會在.txt檔案的最後一行加上數字標記`1`，上方原有的資料不改動。
 
 <p align="center">
 <img src="images/image8.png" width="600">
